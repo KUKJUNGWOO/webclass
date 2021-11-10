@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LEGO</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(image/yellow.jpeg);
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            width: 1392px;
+        }
+
+        .nav {
+            width: 100%;
+            background-color: rgb(207, 0, 0);
+            overflow: auto;
+        }
+
+        .nav ul {
+            padding: 0;
+            margin: 0 0 0 150px;
+            list-style-type: none;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .logo img {
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 10px;
+        }
+
+        .nav a {
+            width: 100px;
+            display: block;
+            padding: 20px 50px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        .box {
+            background-color: white;
+            width: 350px;
+            text-align: center;
+            display: inline-block;
+            margin: 30px 55px;
+        }
+
+        .box-contents {
+            padding: 20px;
+        }
+
+        .box-contents img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .box-contents h1 {
+            display: inline-block;
+            color: black;
+            border-bottom: 2px solid;
+        }
+
+        .box-contents p {
+            margin: 0 auto;
+            opacity: 50%;
+        }
+
+        .box-footer {
+            background-color: rgb(207, 0, 0);
+            padding: 20px;
+        }
+
+        .button {
+            background-color: rgb(255, 214, 34);
+            width: 70px;
+            padding: 10px;
+            margin: 0 auto;
+            border-radius: 10px;
+            color: rgb(39, 39, 39);
+            font-weight: bold;
+        }
+
+        .serch {
+            display: inline-block;
+            margin: 8.5px 0;
+        }
+
+        .video {
+            text-align: center;
+            margin: 30px 0 0;
+        }
+
+        #video1 {
+            border: 10px solid rgb(207, 0, 0);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo"><a href="#"><img src="image/Untitled-1.jpg"></a></div>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">브랜드 소개</a></li>
+            <li><a href="#">시리즈 소개</a></li>
+            <li><a href="#">제품 쇼핑</a></li>
+            <li><a href="#">이벤트 상품</a></li>
+            <li><a href="#">크리스마스</a></li>
+            <li><a href="#">고객 지원</a></li>
+        </ul>
+    </nav>
+    <div class="video">
+        <video id="video1" autoplay muted loop
+            src="image/This is not a Brick. It’s their wildest wishes - LEGO.mp4"></video>
+    </div>
+    <div class="wrapper">
+        <div class="box">
+            <div class="box-contents">
+                <img src="image/1.png" />
+                <h1>레고소식</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur voluptatum similique sint
+                    eaque enim quis illo, eveniet corrupti eius excepturi optio laborum neque aliquam, cupiditate soluta
+                    necessitatibus nam! Eveniet.</p>
+            </div>
+            <div class="box-footer">
+                <div class="button">더보기</div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-contents">
+                <img src="image/2.png" />
+                <h1>레고찾기</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur voluptatum similique sint
+                    eaque enim quis illo, eveniet corrupti eius excepturi optio laborum neque aliquam, cupiditate soluta
+                    necessitatibus nam! Eveniet.</p>
+            </div>
+            <div class="box-footer">
+                <div class="serch">
+                    <input style="background-color:rgb(255, 214, 34)" type="text" placeholder="제품명을 입력해주세요.">
+                    <button style="background-color: rgb(255, 214, 34);">검색</button>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-contents">
+                <img src="image/3.png" />
+                <h1>신제품</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consectetur voluptatum similique sint
+                    eaque enim quis illo, eveniet corrupti eius excepturi optio laborum neque aliquam, cupiditate soluta
+                    necessitatibus nam! Eveniet.</p>
+            </div>
+            <div class="box-footer">
+                <div class="button">더보기</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
